@@ -1,0 +1,14 @@
+*{
+    box-sizing: box-model;
+  }
+  
+  body{
+    display: flex;
+  }
+    #navbar {
+      justify-self: right;
+    }
+  
+  @media (min-width: 650px) and (max-width: 1200px){
+  
+  }
