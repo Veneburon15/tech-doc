@@ -73,9 +73,12 @@ nav li{
     list-style: none;
     height: 3rem;
     border-bottom: solid 1px grey;
-    padding: 0 25px;
     display: flex;
     align-items: center;
+}
+
+nav li:hover{
+    background-color: gray;
 }
 
 nav li:nth-child(1){
@@ -86,7 +89,15 @@ nav li:nth-child(1){
 .nav-link{
     text-decoration: none;
     color: rgb(93, 86, 86);
-    
+    padding: 0 25px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link:hover{
+    color: #fff;
 }
 
 /* Estilos generales de las secciones */
