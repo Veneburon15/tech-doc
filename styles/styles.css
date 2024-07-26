@@ -6,9 +6,18 @@
     /* border: solid 1px purple; */
 }
 
-body{
-    display: flex;
+:root {
+    --main-font:"Kode Mono", monospace;
+    --secondary-font: "Dosis", sans-serif;
 }
+
+body {
+    display: flex;
+    /* position: relative; */
+    font-family: var(--secondary-font);
+}
+
+
 
 main{
     width: 80vw;
@@ -21,6 +30,7 @@ header{
     font-size: 2.5rem;
     font-weight: bold;
     margin: 0 0 20px 0;
+    font-family: var(--main-font);
 }
 
 
@@ -48,8 +58,8 @@ nav{
     border-right: solid gray 3px;
 }
 #nav-header{
-    font-size: 1.9rem;
-    padding: 20px 0 20px 25px;
+    font-size: 1.6em;
+    margin: 20px 25px;
 }
 
 nav ol{
@@ -89,3 +99,13 @@ section{
 section:nth-child(5){
     padding: 0 35px 45px 35px ;
 }
+
+
+/* Estilos Footer */
+/* footer {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
